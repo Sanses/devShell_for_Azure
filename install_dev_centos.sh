@@ -27,12 +27,12 @@ sudo wget http://apache.tt.co.kr/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1
 sudo tar xvfz apache-maven-3.6.1-bin.tar.gz
 sudo ln -s apache-maven-3.6.1  maven
 
-echo " "  >> ~/.bash_profile
-echo "# maven "  >> ~/.bash_profile
-echo "export MAVEN_HOME=/tools/maven"  >> ~/.bash_profile
-echo "PATH=\${MAVEN_HOME}/bin:\${PATH}"  >> ~/.bash_profile
-echo "export PATH"  >> ~/.bash_profile
-source ~/.bash_profile
+echo " "  >> /etc/profile
+echo "# maven "  >> /etc/profile
+echo "export MAVEN_HOME=/tools/maven"  >> /etc/profile
+echo "PATH=\$MAVEN_HOME/bin:\$PATH"  >> /etc/profile
+echo "export PATH"  >> /etc/profile
+source /etc/profile
 
 echo "======================================"
 echo "Azure-cli install"
