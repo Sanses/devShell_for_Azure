@@ -1,5 +1,6 @@
 #!/bin/bash
 # AzureVM for Centos7.5 Develop Environment
+# Author : https://github.com/Sanses
 
 echo "======================================"
 echo "OpenJDK install"
