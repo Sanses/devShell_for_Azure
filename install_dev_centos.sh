@@ -32,7 +32,7 @@ echo "# maven "  >> ~/.bash_profile
 echo "export MAVEN_HOME=/tools/maven"  >> ~/.bash_profile
 echo "PATH=\${MAVEN_HOME}/bin:\${PATH}"  >> ~/.bash_profile
 echo "export PATH"  >> ~/.bash_profile
-source ~/.bash_profile
+sudo source ~/.bash_profile
 
 echo "======================================"
 echo "Azure-cli install"
